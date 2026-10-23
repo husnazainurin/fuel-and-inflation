@@ -32,9 +32,7 @@ EXEC sp_rename 'FuelPrice_Monthly', 'FuelPrice';
 SELECT *
 FROM Inflation
 
--- Select inflation from 'overall' disvision only
-DELETE FROM Inflation
-WHERE division != 'overall'
+
 
 
 
